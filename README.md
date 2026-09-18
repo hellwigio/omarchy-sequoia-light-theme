@@ -1,99 +1,48 @@
-# Sequoia Light — extra-тема Omarchy (macOS Sequoia / Sonoma)
+# Omarchy Sequoia Light Theme
 
-Светлая тема: окна off-white, хром system gray, акцент **System Blue** `#007AFF`, светофор `#FF5F57` / `#FEBC2E` / `#28C840`.
+A light macOS Sequoia theme for [Omarchy](https://omarchy.org): off-white
+windows, system-gray chrome, and Apple System Blue `#007AFF`.
 
-Репозиторий в формате extra-темы Omarchy: файлы темы **в корне** (`colors.toml`, `backgrounds/`, `waybar.css`, …), как у [alabaster](https://github.com/grierson/omarchy-alabaster-theme). `omarchy-theme-install` клонирует git-репо целиком в `~/.config/omarchy/themes/<имя>` и сразу применяет тему — вложенная папка `themes/…` не поддерживается.
+![Sequoia Light preview](preview.png)
 
-Для Дмитрия Лысова / for Dmitriy Lyssov.
+## Wallpapers
 
----
+Five Unsplash skies and California hills. Click any one for the full
+2560×1440 wallpaper.
 
-## Установка одной командой
+| | |
+| --- | --- |
+| [Pale sky](backgrounds/01-pale-sky.jpg) | [Soft clouds](backgrounds/02-soft-clouds.jpg) |
+| [Cirrus](backgrounds/03-cirrus.jpg) | [California fog](backgrounds/04-california-fog.jpg) |
+| [Morro hills](backgrounds/05-morro-hills.jpg) | |
 
-Как любая extra-тема ([ручной](https://omarchy.org/manual/making-your-own-theme/), скрипт [`omarchy-theme-install`](https://github.com/basecamp/omarchy/blob/master/bin/omarchy-theme-install)):
+Photo credits are in [CREDITS.md](CREDITS.md). Cycle with `omarchy theme bg next`.
 
-```bash
-omarchy-theme-install https://github.com/hellwigio/omarchy-sequoia-light-theme
-```
-
-То же через CLI Omarchy 4:
+## Install
 
 ```bash
 omarchy theme install https://github.com/hellwigio/omarchy-sequoia-light-theme
 ```
 
-Или меню: **Install → Style → Theme**, вставить URL репозитория.
-
-Имя в меню берётся из URL: `omarchy-sequoia-light-theme` → **`sequoia-light`**. Соглашение Omarchy: `omarchy-[имя]-theme`. Опубликуйте этот репозиторий под таким именем (GitHub / любой публичный git) и подставьте свой URL.
-
-Публичный репозиторий: [hellwigio/omarchy-sequoia-light-theme](https://github.com/hellwigio/omarchy-sequoia-light-theme). Клон без логина. В меню тема называется **`sequoia-light`**.
-
----
-
-## Палитра / Palette
-
-| Role | Hex | Note |
-| --- | --- | --- |
-| Accent | `#007AFF` | Apple System Blue |
-| Window | `#F5F5F7` / `#FFFFFF` | Sequoia off-white |
-| Chrome | `#E8E8ED` `#E5E5EA` `#D1D1D6` | System Gray 5–6 |
-| Label | `#1D1D1F` | Near-black |
-| Mute | `#8E8E93` | System Gray |
-| Close / Min / Zoom | `#FF5F57` `#FEBC2E` `#28C840` | Traffic lights |
-| Red / Yellow / Green | `#FF3B30` `#FFCC00` `#34C759` | System colors |
-
----
-
-## Обои
-
-Фото [Unsplash License](https://unsplash.com/license) в `backgrounds/`. Авторы — `backgrounds/CREDITS.md`. Следующие обои: `omarchy-theme-bg-next`. Свои: `~/.config/omarchy/backgrounds/sequoia-light/`.
-
----
-
-## GTK и иконки
-
-`light.mode` + `mode = "light"` в `colors.toml` — светлая схема и Adwaita. `icons.theme` — **Yaru-blue**.
-
-Опционально скопируйте `gtk.css` в `~/.config/gtk-3.0/gtk.css` и `~/.config/gtk-4.0/gtk.css`. Omarchy этот overlay сам не линкует.
-
----
-
-## Что внутри
-
-```text
-colors.toml          # палитра Omarchy 4 (главный файл)
-light.mode           # prefer-light
-icons.theme          # Yaru-blue
-gtk.css              # опциональный GTK overlay
-hyprland.conf        # Omarchy 3
-hyprland.lua         # Omarchy 4 (при install из git отбрасывается, см. ниже)
-hyprlock.conf
-waybar.css
-walker.css
-mako.ini
-swayosd.css
-shell.toml
-alacritty.toml / kitty.conf / ghostty.conf / foot.ini
-btop.theme
-neovim.lua
-helix.toml
-vscode.json
-chromium.theme
-keyboard.rgb
-backgrounds/
-preview.png
-preview-unlock.png
-unlock.png
-```
-
-Клон через `omarchy theme install` на Omarchy 4 **не ставит** `*.lua`, конфиги терминалов и `vscode.json` ([политика extra-тем](https://omarchy.org/manual/making-your-own-theme/)): они запускают код. Цвета остаются — их генерируют шаблоны из `colors.toml`. `btop.theme`, `shell.toml`, `waybar.css`, `mako.ini`, обои — остаются.
-
----
-
-## Sequoia Light — Omarchy extra theme
+Or:
 
 ```bash
 omarchy-theme-install https://github.com/hellwigio/omarchy-sequoia-light-theme
 ```
 
-Repo root is the theme (not a nested `themes/` folder). Name the git repo `omarchy-sequoia-light-theme` so the menu shows `sequoia-light`.
+The menu name is `sequoia-light`. Icons are `Yaru-blue`.
+
+## Palette
+
+| Role | Hex |
+| --- | --- |
+| Background | `#F5F5F7` |
+| Dark background | `#E8E8ED` |
+| Darker background | `#D1D1D6` |
+| Lighter background | `#FFFFFF` |
+| Foreground | `#1D1D1F` |
+| Accent | `#007AFF` |
+| Selection | `#B3D7FF` |
+| Muted | `#8E8E93` |
+
+Full ANSI palette in [`colors.toml`](colors.toml).

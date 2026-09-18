@@ -1,6 +1,6 @@
-# Обои / Wallpapers
+# Wallpaper credits
 
-Свободные фото [Unsplash License](https://unsplash.com/license) (можно использовать без разрешения, в т.ч. коммерчески). Авторов благодарим.
+Photographs under the [Unsplash License](https://unsplash.com/license).
 
 | File | Photo | Author |
 | --- | --- | --- |
@@ -9,5 +9,3 @@
 | `03-cirrus.jpg` | [cypKN-Eyrt4](https://unsplash.com/photos/cypKN-Eyrt4) | [Yuriy Vertikov](https://unsplash.com/@noa69) |
 | `04-california-fog.jpg` | [hKBlssHNqgk](https://unsplash.com/photos/hKBlssHNqgk) | California farmland / Coast Starlight |
 | `05-morro-hills.jpg` | [yG2q8IcFV0Y](https://unsplash.com/photos/yG2q8IcFV0Y) | [Jeremy Bishop](https://unsplash.com/@jeremybishop) |
-
-2560×1440 JPEG. Следующие обои в Omarchy: `omarchy-theme-bg-next`.
