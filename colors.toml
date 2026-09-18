@@ -5,6 +5,7 @@ mode = "light"
 
 accent = "#007AFF"
 selection = "#B3D7FF"
+selection_foreground = "#1D1D1F"
 muted = "#8E8E93"
 
 background = "#F5F5F7"
@@ -36,8 +37,3 @@ bright_magenta = "#BF5AF2"
 # Hyprland window borders (solid System Blue / system gray)
 hyprland_active_border = "#007AFF"
 hyprland_inactive_border = "#C7C7CC"
-
-# Traffic-light chrome (close / minimise / zoom) for apps that read extra keys
-close = "#FF5F57"
-minimise = "#FEBC2E"
-zoom = "#28C840"

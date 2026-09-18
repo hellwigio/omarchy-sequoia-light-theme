@@ -24,13 +24,10 @@ Photo credits are in [CREDITS.md](CREDITS.md). Cycle with `omarchy theme bg next
 omarchy theme install https://github.com/hellwigio/omarchy-sequoia-light-theme
 ```
 
-Or:
-
-```bash
-omarchy-theme-install https://github.com/hellwigio/omarchy-sequoia-light-theme
-```
-
-The menu name is `sequoia-light`. Icons are `Yaru-blue`.
+The menu name is `sequoia-light`. Icons are `Yaru-blue`. Palette is
+[`colors.toml`](colors.toml). Terminal, Hyprland Lua, Neovim, and VS Code
+configs are generated on the machine from that file — they are not shipped
+in this repo.
 
 ## Palette
 
@@ -43,6 +40,7 @@ The menu name is `sequoia-light`. Icons are `Yaru-blue`.
 | Foreground | `#1D1D1F` |
 | Accent | `#007AFF` |
 | Selection | `#B3D7FF` |
+| Selection foreground | `#1D1D1F` |
 | Muted | `#8E8E93` |
 
-Full ANSI palette in [`colors.toml`](colors.toml).
+Code is MIT ([LICENSE](LICENSE)). Wallpapers are [Unsplash License](https://unsplash.com/license).

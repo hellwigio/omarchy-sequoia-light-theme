@@ -13,3 +13,5 @@ including commercially. Authors are credited below.
 | [`05-morro-hills.jpg`](backgrounds/05-morro-hills.jpg) | [yG2q8IcFV0Y](https://unsplash.com/photos/yG2q8IcFV0Y) | [Jeremy Bishop](https://unsplash.com/@jeremybishop) |
 
 2560×1440 JPEG. Next wallpaper in Omarchy: `omarchy theme bg next`.
+
+Theme code is MIT; see [LICENSE](LICENSE).
