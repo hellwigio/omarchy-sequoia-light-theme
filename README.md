@@ -3,18 +3,20 @@
 A light macOS Sequoia theme for [Omarchy](https://omarchy.org): off-white
 windows, system-gray chrome, and Apple System Blue `#007AFF`.
 
-![Sequoia Light preview](preview.png)
+![Sequoia Light on Omarchy](preview.png)
+
+Lock screen: [preview-unlock.png](preview-unlock.png).
 
 ## Wallpapers
 
-Five Unsplash skies and California hills. Click any one for the full
-2560×1440 wallpaper.
+Five Unsplash skies and California hills. Thumbnails below; click for the
+full 2560×1440 JPEG in `backgrounds/`.
 
 | | |
 | --- | --- |
-| [Pale sky](backgrounds/01-pale-sky.jpg) | [Soft clouds](backgrounds/02-soft-clouds.jpg) |
-| [Cirrus](backgrounds/03-cirrus.jpg) | [California fog](backgrounds/04-california-fog.jpg) |
-| [Morro hills](backgrounds/05-morro-hills.jpg) | |
+| [![Pale sky](thumbnails/01-pale-sky.jpg)](backgrounds/01-pale-sky.jpg) | [![Soft clouds](thumbnails/02-soft-clouds.jpg)](backgrounds/02-soft-clouds.jpg) |
+| [![Cirrus](thumbnails/03-cirrus.jpg)](backgrounds/03-cirrus.jpg) | [![California fog](thumbnails/04-california-fog.jpg)](backgrounds/04-california-fog.jpg) |
+| [![Morro hills](thumbnails/05-morro-hills.jpg)](backgrounds/05-morro-hills.jpg) | |
 
 Photo credits are in [CREDITS.md](CREDITS.md). Cycle with `omarchy theme bg next`.
 
