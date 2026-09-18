@@ -1,0 +1,49 @@
+# Sequoia light — Helix
+
+"ui.background" = { bg = "background" }
+"ui.text" = "foreground"
+"ui.cursor" = { fg = "background", bg = "cursor" }
+"ui.cursor.primary" = { fg = "background", bg = "accent" }
+"ui.selection" = { bg = "selection" }
+"ui.linenr" = "muted"
+"ui.linenr.selected" = "foreground"
+"ui.statusline" = { fg = "foreground", bg = "chrome" }
+"ui.statusline.inactive" = { fg = "muted", bg = "chrome" }
+"ui.menu" = { fg = "foreground", bg = "window" }
+"ui.menu.selected" = { fg = "accent", bg = "selection" }
+"ui.popup" = { bg = "window" }
+"ui.window" = "border"
+"ui.help" = { fg = "foreground", bg = "chrome" }
+
+"keyword" = "magenta"
+"function" = "blue"
+"type" = "accent"
+"string" = "green"
+"constant" = "orange"
+"comment" = "muted"
+"variable" = "foreground"
+"operator" = "foreground"
+"error" = "red"
+"warning" = "yellow"
+"info" = "accent"
+"hint" = "cyan"
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+
+[palette]
+background = "#F5F5F7"
+chrome = "#E8E8ED"
+window = "#FFFFFF"
+border = "#C7C7CC"
+foreground = "#1D1D1F"
+muted = "#8E8E93"
+cursor = "#000000"
+accent = "#007AFF"
+selection = "#B3D7FF"
+red = "#FF3B30"
+yellow = "#FFCC00"
+orange = "#FF9500"
+green = "#34C759"
+cyan = "#32ADE6"
+blue = "#007AFF"
+magenta = "#AF52DE"

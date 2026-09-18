@@ -1,0 +1,93 @@
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#F5F5F7"
+
+# Main text color
+theme[main_fg]="#1D1D1F"
+
+# Title color for boxes
+theme[title]="#1D1D1F"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#007AFF"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#B3D7FF"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#007AFF"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#8E8E93"
+
+# Color of text appearing on top of graphs
+theme[graph_text]="#3A3A3C"
+
+# Background color of the percentage meters
+theme[meter_bg]="#E8E8ED"
+
+# Misc colors for processes box
+theme[proc_misc]="#3A3A3C"
+
+# Box outline colors — traffic lights + System Blue
+theme[cpu_box]="#FF5F57"
+theme[mem_box]="#FEBC2E"
+theme[net_box]="#28C840"
+theme[proc_box]="#007AFF"
+
+# Box divider line and small boxes line color
+theme[div_line]="#C7C7CC"
+
+# Temperature graph color (Green -> Yellow -> Red)
+theme[temp_start]="#34C759"
+theme[temp_mid]="#FFCC00"
+theme[temp_end]="#FF3B30"
+
+# CPU graph colors
+theme[cpu_start]="#32ADE6"
+theme[cpu_mid]="#007AFF"
+theme[cpu_end]="#AF52DE"
+
+# Mem/Disk free meter
+theme[free_start]="#AF52DE"
+theme[free_mid]="#007AFF"
+theme[free_end]="#32ADE6"
+
+# Mem/Disk cached meter
+theme[cached_start]="#007AFF"
+theme[cached_mid]="#32ADE6"
+theme[cached_end]="#AF52DE"
+
+# Mem/Disk available meter
+theme[available_start]="#FFCC00"
+theme[available_mid]="#FF9500"
+theme[available_end]="#FF3B30"
+
+# Mem/Disk used meter
+theme[used_start]="#34C759"
+theme[used_mid]="#32ADE6"
+theme[used_end]="#007AFF"
+
+# Download graph colors
+theme[download_start]="#FFCC00"
+theme[download_mid]="#FF9500"
+theme[download_end]="#FF3B30"
+
+# Upload graph colors
+theme[upload_start]="#34C759"
+theme[upload_mid]="#32ADE6"
+theme[upload_end]="#007AFF"
+
+# Process box color gradient
+theme[process_start]="#32ADE6"
+theme[process_mid]="#007AFF"
+theme[process_end]="#AF52DE"
+
+# Graph gradient colors
+theme[gradient_color_0]="#F5F5F7"
+theme[gradient_color_1]="#FFFFFF"
+theme[gradient_color_2]="#B3D7FF"
+theme[gradient_color_3]="#8E8E93"
+theme[gradient_color_4]="#8E8E93"
+theme[gradient_color_5]="#1D1D1F"
+theme[gradient_color_6]="#3A3A3C"
+theme[gradient_color_7]="#000000"

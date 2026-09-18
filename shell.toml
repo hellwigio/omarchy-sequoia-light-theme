@@ -1,0 +1,134 @@
+# Sequoia light — Omarchy 4 Quickshell surfaces.
+# Hand-written so the generated default is replaced with macOS chrome.
+
+[bar]
+background = "#E8E8ED"
+background-alpha = 0.94
+text = "#1D1D1F"
+active = "#FF3B30"
+scale-with-font = true
+size-horizontal = 28
+size-vertical = 28
+
+[hyprland]
+active-border = "#007AFF"
+active-border-foreground = "#007AFF"
+
+[controls]
+normal-color = "#1D1D1F"
+normal-fill-alpha = 0.04
+normal-border = "#C7C7CC"
+normal-border-width = 1
+normal-border-alpha = 0.9
+
+hover-cursor-color = "#1D1D1F"
+hover-cursor-fill-alpha = 0.08
+hover-cursor-border = "#007AFF"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.45
+
+focus-color = "#1D1D1F"
+focus-fill-alpha = 0.08
+focus-border = "#007AFF"
+focus-border-width = 1
+focus-border-alpha = 0.7
+
+selected-color = "#FFFFFF"
+selected-fill-alpha = 1.0
+selected-border = "#007AFF"
+selected-border-width = 0
+selected-border-alpha = 1.0
+
+pressed-fill-alpha = 0.16
+selection-fill-alpha = 0.35
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+background = "#FFFFFF"
+background-alpha = 0.96
+text = "#1D1D1F"
+border = "#C7C7CC"
+border-alpha = 1.0
+
+[tooltip]
+background = "#FFFFFF"
+background-alpha = 0.97
+text = "#1D1D1F"
+border = "#C7C7CC"
+border-alpha = 1.0
+
+[notifications]
+background = "#F5F5F7"
+background-alpha = 0.96
+text = "#1D1D1F"
+border = "#007AFF"
+border-alpha = 1.0
+countdown = "#007AFF"
+
+[launcher]
+background = "#FFFFFF"
+background-alpha = 0.96
+text = "#1D1D1F"
+border = "#C7C7CC"
+border-alpha = 1.0
+scrim = "#F5F5F7"
+scrim-alpha = 0.35
+selected-background = "#007AFF"
+selected-background-alpha = 0.12
+selected-text = "#007AFF"
+selected-border = "#007AFF"
+selected-border-alpha = 0.35
+
+[menu]
+background = "#FFFFFF"
+background-alpha = 0.98
+text = "#1D1D1F"
+border = "#C7C7CC"
+border-alpha = 1.0
+scrim = "#F5F5F7"
+scrim-alpha = 0.35
+selected-background = "#007AFF"
+selected-background-alpha = 0.12
+selected-text = "#007AFF"
+selected-border = "#007AFF"
+selected-border-alpha = 0.35
+
+[polkit]
+background = "#FFFFFF"
+background-alpha = 1.0
+text = "#1D1D1F"
+text-error = "#FF3B30"
+border = "#007AFF"
+border-error = "#FF3B30"
+border-alpha = 1.0
+scrim = "#F5F5F7"
+scrim-alpha = 0.4
+accent = "#007AFF"
+
+[lock]
+background = "#FFFFFF"
+background-alpha = 0.88
+text = "#1D1D1F"
+placeholder = "#8E8E93"
+text-error = "#FF3B30"
+border = "#C7C7CC"
+border-active = "#007AFF"
+border-error = "#FF3B30"
+border-alpha = 1.0
+selection = "#007AFF"
+selection-alpha = 0.35
+
+[image-picker]
+scrim = "#F5F5F7"
+scrim-alpha = 0.45
+text = "#1D1D1F"
+selected-border = "#007AFF"
+selected-border-alpha = 1.0
+unselected-border = "#C7C7CC"
+unselected-border-alpha = 0.5

@@ -1,0 +1,23 @@
+@define-color foreground #1D1D1F;
+@define-color background #E8E8ED;
+@define-color border #C7C7CC;
+@define-color accent #007AFF;
+@define-color close #FF5F57;
+@define-color minimize #FEBC2E;
+@define-color zoom #28C840;
+
+#custom-screenrecording-indicator.active {
+    color: #FF3B30;
+}
+
+#pulseaudio.muted {
+    color: #8E8E93;
+}
+
+#battery.critical {
+    color: #FF3B30;
+}
+
+#network.disconnected {
+    color: #FF9500;
+}
